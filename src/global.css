@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body, html, #root, .ant-layout {
+  height: 100%;
+}
+.w100 {
+  width: 100%;
+}
+.h100 {
+  height: 100%;
+}
+.flex {
+  display: flex;
+}
+.f-col {
+  flex-direction: column;
+}
+.j-end {
+  justify-content: flex-end;
+}
+.j-center {
+  justify-content: center;
+}
+.a-center {
+  align-items: center;
+}
+.j-between {
+  justify-content: space-between;
+}
+.j-around {
+  justify-content: space-around;
+}
+.f-1 {
+  flex: 1;
+}
+.f-wrap {
+  flex-wrap: wrap;
+}
+.c-p {
+  cursor: pointer;
+  outline: none;
+}
+.c-m {
+  cursor:move ;
+}
+.o-h{
+  overflow: hidden;
+}
+.ml1 {
+  margin-left: 10px;
+}
+.ml2 {
+  margin-left: 20px;
+}
+.ml3 {
+  margin-left: 30px;
+}
+.mr1 {
+  margin-right: 10px;
+}
+.mr2 {
+  margin-right: 20px;
+}
+.mr3 {
+  margin-right: 30px;
+}
+.mt1 {
+  margin-top: 10px;
+}
+.mt2 {
+  margin-top: 20px;
+}
+.mt3 {
+  margin-top: 30px;
+}
+.mb1 {
+  margin-bottom: 10px;
+}
+.mb2 {
+  margin-bottom: 20px;
+}
+.mb3 {
+  margin-bottom: 30px;
+}
+.t-c {
+  text-align: center;
+}
+.attrs__tab .ant-tabs-nav-list {
+  width: 100% !important;
+}
+.attrs__tab .ant-tabs-tab {
+  flex: 1 !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+.icon__modal .ant-modal-content {
+  height: 700px !important;
+  overflow: scroll !important;
+}
